@@ -12,7 +12,7 @@ from ai.managers.prompt_manager import PromptManager
 from ai.data.config import LLM_MODEL, MESSAGE_TYPE_DESCRIPTION, NEW_REQUEST_DESCRIPTION, PREVIOUS_LANGUAGE_DESCRIPTION
 
 
-load_dotenv('/data/.env')
+load_dotenv()
 
 class AiHelpers:
     """
